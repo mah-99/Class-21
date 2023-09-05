@@ -1,0 +1,87 @@
+/* Common Css Start */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+/* Common Css End */
+.para{
+    cursor: pointer;
+}
+#btn{
+    cursor: pointer;
+}
+.btn-2{
+    cursor: pointer;
+}
+.fade_parent_box .child_box{
+    margin-right: 100px;
+}
+.slide_parent_box .child_box{
+    margin-right: 100px;
+}
+#panel-1,#flip-1{
+    padding: 5px 50px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+    cursor: pointer;
+}
+#panel-1{
+    padding: 100px;
+    display: none;
+}
+#panel-2,#flip-2{
+    padding: 5px 50px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+    cursor: pointer;
+}
+#panel-2{
+    padding: 100px;
+}
+#panel-3,#flip-3{
+    padding: 5px 50px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+    cursor: pointer;
+}
+#panel-3{
+    padding: 100px;
+    display: none;
+}
+#panel-4,#flip-4{
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;
+}
+#panel-4{
+    padding: 50px;
+    display: none;
+}
+#button-5{
+    cursor: pointer;
+}
+#stop{
+    cursor: pointer;
+}
